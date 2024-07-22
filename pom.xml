@@ -113,4 +113,16 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>github</id>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </snapshots>
+            <url>https://maven.pkg.github.com/eitco/eitco-oss-parent</url>
+        </repository>
+    </repositories>
+
+
 </project>
